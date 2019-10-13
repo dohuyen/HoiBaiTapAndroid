@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_song">SongActivity</string>
+
+    <string name="action_search"></string>
+
+
+    <string name="pause">Pause</string>
+    <string name="next">SongActivity</string>
+    <string name="previous">SongActivity</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

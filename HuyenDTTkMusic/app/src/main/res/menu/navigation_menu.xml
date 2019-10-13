@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <item android:title="First Category">
+        <menu>
+            <group
+                android:id="@+id/menu_top"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/listen_now"
+                    android:icon="@drawable/bg_default_album_art"
+                    android:scaleType="fitXY"
+                    android:title="Listen Now" />
+
+                <item
+                    android:id="@+id/recents"
+                    android:icon="@drawable/ic_recent_black"
+                    android:title="Recents" />
+
+                <item
+                    android:id="@+id/music_library"
+                    android:icon="@drawable/ic_library_music_orange"
+                    android:title="Music library" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Second Category">
+        <menu>
+            <group
+                android:id="@+id/menu_bottom"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/settings"
+                    android:title="Settings" />
+
+                <item
+                    android:id="@+id/help_feedback"
+                    android:title="Help-feedback" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
